@@ -12,64 +12,9 @@
 body{
     font-family: 'Roboto', 'sans serif';
     background-color: #ebebeb;
-    max-width: 100vw;
-}
-.main-header{
-    width: 100vw;
-    background-color: #EAC926;
-    padding: 20px;
-}
-
-.header-top {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    
-
-}
-
-#logo-mercado-liebre {
-    width: 50%;
-    justify-self: flex-start;
-}
-
-#buscador {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-   
-}
-
-#header-copy{
-    font-weight: 300;
-    
-}
-
-#menu_hamburguesa{
-    box-sizing: border-box;
-    color: white;
-    background-color: #03264c;
-    padding: 0.5rem;
-    border-radius: 10%;
-}
-.menu_hamburguesa{
-    text-align: center;
-    display: block;
-}
-
-.links {
-    display: inline-block;
-    padding: 5px;
-    font-size: 17px;
-}
-
-body {
     width: 100vw;
 }
+
 main {
     background-color: #ebebeb;
     margin: auto;
@@ -104,7 +49,12 @@ main p {
     width: 90%;
     margin: 10px;
     position: relative;
-    box-shadow: ​0px ​0px ​10px ​#646464;
+    transition: all 100ms ease-in;
+}
+
+.producto:hover {
+    box-shadow: 0px 0px 10px #646464;
+    opacity: 1;
 }
 
 .producto img {
@@ -119,7 +69,6 @@ main p {
     display: none;
     flex-flow: row wrap;
     justify-content: space-between;
-    box-shadow: ​0px ​0px ​10px ​#646464;
     
 }
 
@@ -131,6 +80,11 @@ main p {
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: all 400ms;
+}
+
+.camion:hover {
+    transform: rotate(-90deg)
 }
 .precio{
     font-size: 18px;
@@ -153,8 +107,15 @@ main p {
     font-size: 16px;
     color: #666;
     width: 100%;
+    opacity: 0;
+    transition: all 200ms;
+    
 }
 
+.nombre:hover {
+    opacity: 1;
+    
+}
 
 
 footer {

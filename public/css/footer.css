@@ -35,6 +35,11 @@ footer {
     color: #03264c;
     font-size: 4rem;
     margin-bottom: 10px;
+    transition: color 50ms;
+}
+
+.footer-icon:hover{
+    color: #1259c3;
 }
 
 #copyright {

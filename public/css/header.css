@@ -43,6 +43,10 @@ body{
    
 }
 
+#barra {
+    width: 90%;
+}
+
 #header-copy{
     font-weight: 300;
     
