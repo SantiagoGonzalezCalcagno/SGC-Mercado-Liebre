@@ -4,7 +4,8 @@
   "description": "mercado-liebre",
   "main": "src/app.js",
   "scripts": {
-    "test": "nodemon app.js -e js,mjs,json,html,css"
+    "test": "nodemon app.js -e js,mjs,json,html,css",
+    "star": "node app.js"
   },
   "author": "santiago",
   "license": "ISC",
