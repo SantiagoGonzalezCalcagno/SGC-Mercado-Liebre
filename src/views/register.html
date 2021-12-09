@@ -47,14 +47,14 @@ rel="stylesheet" />
          
         <section class="header-bottom">
             <nav class="navegador-left">
-                <a class="links" href="">Ofertas</a>
+                <a class="links" href="/">Ofertas</a>
                 <a class="links" href="">Tiendas Oficiales</a>
                 <a class="links" href="">Vender</a>
                 <a class="links" href="">Ayuda</a>
             </nav>
             <nav class="navegador-right">
-                <a class="links" href="">Creá tu cuenta <i class="far fa-id-card"></i> </a>
-                <a class="links" href="">Ingresá <i class="fas fa-sign-in-alt"></i> </a>
+                <a class="links" href="/register">Creá tu cuenta <i class="far fa-id-card"></i> </a>
+                <a class="links" href="/login">Ingresá <i class="fas fa-sign-in-alt"></i> </a>
                 <a class="links" href="">Mis compras <i class="fas fa-shopping-basket"></i> </a>
             </nav>
             
@@ -62,7 +62,6 @@ rel="stylesheet" />
     </header>
                     <!-- MAIN -->
     <main>
-        <section>
             <form action="" method="post">
 
                 <fieldset id="datos-personales">
@@ -77,27 +76,42 @@ rel="stylesheet" />
 
                 <fieldset id="perfil">
                     <legend>Perfil de usuario</legend>
-                    <input type="radio" id="comprador" value="comprador">
+                    <article>
+                        <input type="radio" id="comprador" value="comprador">
                     <label for="comprador">Comprador</label>
-                    <input type="radio" id="vendedor" value="vendedor">
+                    </article>
+                    <article>
+                        <input type="radio" id="vendedor" value="vendedor">
                     <label for="vendedor">Vendedor</label>
+                    </article>
                 </fieldset>
 
                 <fieldset id="intereses">
                     <legend>Intereses</legend>
-                    <input type="checkbox" id="electro" value="electro">
+                    <article>
+                         <input type="checkbox" id="electro" value="electro">
                     <label for="electro">Electro</label>
-                    <input type="checkbox" id="moda" value="moda">
+                    </article>
+                    <article>
+                        <input type="checkbox" id="moda" value="moda">
                     <label for="moda">Moda</label>
-                    <input type="checkbox" id="hogar" value="hogar">
+                    </article>
+                    <article>
+                        <input type="checkbox" id="hogar" value="hogar">
                     <label for="hogar">Hogar</label>
-                    <input type="checkbox" id="jugueteria" value="jugueteria">
+                    </article>
+                    <article>
+                        <input type="checkbox" id="jugueteria" value="jugueteria">
                     <label for="jugueteria">Jugueteria</label>
-                    <input type="checkbox" id="vida-sana" value="vida-sana">
+                    </article>
+                    <article>
+                        <input type="checkbox" id="vida-sana" value="vida-sana">
                     <label for="vida-sana">Vida sana</label>
+                    </article>
                 </fieldset>
                 
                 <fieldset id="foto">
+                    <legend>Foto</legend>
                     <label for="imagen">Agrega tu imagen</label>
                     <input type="file" id="imagen" value="image">
                 </fieldset>
@@ -116,7 +130,6 @@ rel="stylesheet" />
                     <button type="submit" id="boton-submit">Enviar daots</button>
                 </fieldset>
             </form>
-        </section>
 
     </main>
                     <!-- FOOTER -->

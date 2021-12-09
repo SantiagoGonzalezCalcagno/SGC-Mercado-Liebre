@@ -1,0 +1,41 @@
+main {
+    background-color: #fff;
+    width: 100vw;
+}
+
+main form{
+    width: 70%;
+    background-color: #ebebeb;
+    margin: auto;
+    padding: 15px;
+    
+}
+
+#form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 20px 0px;
+}
+
+#form-login input{
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+.registro {
+    border: none;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#button {
+    color: #fff;
+    background-color: #1259c3;
+    width: 30%;
+    font-size: 20px;
+}

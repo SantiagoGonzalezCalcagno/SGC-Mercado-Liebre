@@ -20,9 +20,9 @@
 rel="stylesheet" />
 
     <!-- Stylesheets -->
-    <link href="/css/register.css" rel="stylesheet">
     <link href="/css/header.css" rel="stylesheet">
     <link href="/css/footer.css" rel="stylesheet">
+    <link href="/css/login.css" rel="stylesheet">
 </head>
 
 <body>
@@ -48,22 +48,29 @@ rel="stylesheet" />
          
         <section class="header-bottom">
             <nav class="navegador-left">
-                <a class="links" href="">Ofertas</a>
+                <a class="links" href="/">Ofertas</a>
                 <a class="links" href="">Tiendas Oficiales</a>
                 <a class="links" href="">Vender</a>
                 <a class="links" href="">Ayuda</a>
             </nav>
             <nav class="navegador-right">
-                <a class="links" href="">Creá tu cuenta <i class="far fa-id-card"></i> </a>
-                <a class="links" href="">Ingresá <i class="fas fa-sign-in-alt"></i> </a>
-                <a class="links" href="">Mis compras <i class="fas fa-shopping-basket"></i> </a>
+                <a class="links" href="/register">Creá tu cuenta <i class="far fa-id-card"></i> </a>
+                <a class="links" href="/login">Ingresá <i class="fas fa-sign-in-alt"></i> </a>
+                <a class="links" href="/">Mis compras <i class="fas fa-shopping-basket"></i> </a>
             </nav>
             
         </section>
     </header>
                     <!-- MAIN -->
     <main>
+        <form action="" method="post">
 
+            <fieldset id="form-login">
+                <input type="text" class="registro" name="usuario" placeholder="Nombre de Usuario" required>
+                <input type="password" class="registro" name="password" placeholder="Ingresá tu contraseña" required>
+                <input type="button" id="button"  value="Ingresá">
+            </fieldset>
+        </form>
     </main>
                     <!-- FOOTER -->
     <footer>

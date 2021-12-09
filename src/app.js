@@ -9,4 +9,4 @@ app.listen(3000, () => console.log("listening on port http://localhost:" + app.s
 
 app.get('/', (req, res) => res.sendFile(path.resolve(__dirname, './views/home.html')));
 app.get('/register', (req, res) => res.sendFile(path.resolve(__dirname, './views/register.html')));
-app.get('/sign-in/', (req, res) => res.sendFile(path.resolve(__dirname, './views/sign-in.html')));
+app.get('/login', (req, res) => res.sendFile(path.resolve(__dirname, './views/login.html')));
